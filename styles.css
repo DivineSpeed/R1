@@ -1,0 +1,141 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.above-nav{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray ;
+}
+.above-nav > div {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.logo {
+    margin-top: 20px;
+    margin-left: 140px;
+    margin-right: 120px;
+    padding: 10px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.H-nav {
+    display: flex;
+    background-color:#8a50a2;
+    border-bottom: 1px solid gray;
+}
+.navbar > .nav-link {
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.nav-link {
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+.nav-link a {
+    color:#CC9900;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-link a:hover {
+    border-bottom: 2px solid black;
+    color: black;
+}
+.img-backgd {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 800px;
+    width: auto;    
+}
+.text {
+    position: absolute;
+    top: 20%;
+    margin: 50px;
+    padding-left: 15px;
+    font-size: 150%;
+    font-weight: 900;
+    color: blanchedalmond;
+}
+#form {
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    margin: 50px;
+    margin-top: 100px;
+    padding: 25px;
+    font-weight: bolder;
+    font-size: 150%;
+    color:blanchedalmond ;
+}
+.formControl{
+    display: block;
+    width: 100%;
+    height: 1.875rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+.formControl:focus{
+    border-color:blue;
+    outline: 0;
+    box-shadow:0 0 0 0.2rem rgba(0,123,255,0.25)
+}
+.img1{
+    padding: 10px 65px;
+}
+.img2{
+    position: absolute;
+    top: 85%;
+    margin: 85px 30px;
+}
+.creacc{
+    position: absolute;
+    top: 80%;
+    margin: 85px;
+    color: blanchedalmond;
+}
+.btn{
+    display: block;
+    width: 100%;
+    padding:0.5rem 0.75rem;
+    background: #8a50a2;
+    color: inherit;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    color: #CC9900;
+    border: none;
+}    
+.PRs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.header{
+    margin-left: 43%;
+    padding: 15px 0px;
+    font-weight: 700;
+}
+.PRs a{
+    position: relative;
+    margin-left: 25%;
+}
+.footer{
+    font-family: 'Lato', sans-serif;
+    margin-top: 25px;
+    padding-left: 30%;
+    border-top: 1px solid gray;
+}
